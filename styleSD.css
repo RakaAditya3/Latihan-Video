@@ -1,0 +1,28 @@
+div{
+    width: 70%;
+    margin: auto;
+}
+
+.Baris-1 {
+    margin-top: 20px;
+    padding: auto;
+}
+
+.Baris-2 {
+    margin-top: 20px;
+    display: flex;
+    gap: 200px;
+}
+
+.Baris-3 {
+    margin-top: 20px;
+    display: flex;
+    gap: 200px;
+}
+
+.Baris-4 {
+    margin-top: 20px;
+    display: flex;
+    gap: 200px;
+}
+

@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hataku Dimsum</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <img src="image/HaTaku.png" width="300">
-    <h1><b> Welcome To HaTaku</b></h1>
+    <div>
+    <div style="width: 30%; margin: auto;"><h1><b> Welcome To HaTaku</b></h1>
+    <img src="image/HaTaku.png" width="300"></div>
     <ul>
         <li> <a href="#Home">Home</li></a>
         <li>Menu</li>
@@ -15,12 +17,10 @@
             <li> <a href="Pages/SignatureDimsum.html">Signature Dimsum</a></li>
             <li> <a href="Pages/Dimsum.html">Dimsum</a></li>
         </ul>
-        <li>Alamat</li>
-        <li>Kontak</li>
         <li> <a href="#Kritik&Saran">Kritik & Saran</li></a>
     </ul>
     <hr>
-    <h1 id="Home">Selamat Datang di Hataku !</h1>
+    <div style="width: 40%; margin: auto;"><h1 id="Home">Selamat Datang di Hataku !</h1></div>
     <p>
         Kami sangat senang menyambut Anda di <strong>Hataku Dimsum</strong>,
         destinasi utama bagi para pecinta<br> dimsum yang menginginkan pengalaman kuliner tak terlupakan.Di sini,
@@ -30,130 +30,32 @@
         <em>Terima kasih telah bergabung dengan kami</em>, 
         dan selamat <br>menikmati pengalaman kuliner yang memuaskan!
     </p>
-    <hr>
-    <h1>Menu</h1>
-    <h2 id="Signature Dimsum"><b>Signature Dimsum</b></h2>
-    <table border="1px">
-        <thead>
-            <tr>
-                <th rowspan="2">Daftar Menu</th>
-                <th colspan="3">Daftar Harga</th>
-            </tr>
-            <tr>
-                <th>Non Mentai</th>
-                <th>Mentai</th>
-                <th>Volcano</th>
-            </tr>
-            <tr>
-                <th>Dimsum Original</th>
-                <th>3K</th>
-                <th>4.5K</th>
-                <th>4K</th>
-            </tr>
-            <tr>
-                <th>Dimsum Cheese</th>
-                <th>3K</th>
-                <th>4.5K</th>
-                <th>4K</th>
-            </tr>
-            <tr>
-                <th>Dimsum Mushroom</th>
-                <th>3K</th>
-                <th>4.5K</th>
-                <th>4K</th>
-            </tr>
-            <tr>
-                <th>Dimsum CrabStick</th>
-                <th>3K</th>
-                <th>4.5K</th>
-                <th>4K</th>
-            </tr>
-            <tr>
-                <th>Dimsum Beef</th>
-                <th>3K</th>
-                <th>4.5K</th>
-                <th>4K</th>
-            </tr>
-
-        </thead>
-        <tbody>
-
-        </tbody>
-    </table>
-        <br><br><br>
-        <h2 id="Dimsum"><b>Dimsum</b></h2>
-    <table border="1px">
-        <thead>
-            <tr>
-                <th rowspan="2">Daftar Menu</th>
-                <th colspan="1">Daftar Harga</th>
-            </tr>
-            <tr>
-                <th>3Pcs Dimsum</th>
-            </tr>
-            <tr>
-                <th>Xia Long Bao</th>
-                <th>15K</th>
-            </tr>
-            <tr>
-                <th>Pangsit Shanghai</th>
-                <th>15K</th>
-            </tr>
-            <tr>
-                <th>Tim Tahu</th>
-                <th>15K</th>
-            </tr>
-            <tr>
-                <th>Money Bag</th>
-                <th>15K</th>
-            </tr>
-            <tr>
-                <th>Hakau</th>
-                <th>15K</th>
-            </tr>
-            <tr>
-                <th>Wotiek</th>
-                <th>15K</th>
-            </tr>
-            <tr>
-                <th>Kocoi</th>
-                <th>15K</th>
-            </tr>
-
-        </thead>
-        <tbody>
-
-        </tbody>
-    </table>
 
         <br>
-        
+
     <fieldset id="Kritik&Saran">
         <legend>Kritik & Saran Anda</legend>
+        <form action="">
         <label for="Nama">Nama</label>
         <input type="text" 
         name="Nama" 
         id="" 
         placeholder="Masukkan Nama Anda!" 
         required>
-
         <br>
-
         <label for="Email">Email</label>
         <input type="email" 
         name="Email" 
         id=""
         placeholder="Masukkan Email Anda!"
         required>
-
         <br>
-
         <label for="Kritik&Saran">Kritik :</label>
         <textarea name="Kritik&Saran" id="" cols="20" rows="5"></textarea>
-
         <br>
-
         <input type="submit" value="Kirim">
+        </form>
     </fieldset>
+        </div>
 </body>
 </html>
