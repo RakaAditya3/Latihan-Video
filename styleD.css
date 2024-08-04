@@ -3,26 +3,71 @@ div{
     margin: auto;
 }
 
-.BarisD-1 {
+.Baris-1 {
     margin-top: 20px;
-    padding: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
-.BarisD-2 {
-    margin-top: 20px;
+.Baris-2 {
+    margin-top: 70px;
     display: flex;
     gap: 200px;
 }
 
-.BarisD-3 {
-    margin-top: 20px;
+.Baris-2-Kolom-1 {
+    margin-top: 70px;
+    margin-left: -149px;
+    margin-right: auto;
+}
+
+.Baris-2-Kolom-2 {
+    margin-top: 70px;
+    margin-left: 196px;
+    margin-right: auto;
+}
+
+.Baris-3 {
+    margin-top: 70px;
     display: flex;
     gap: 200px;
 }
 
-.BarisD-4 {
-    margin-top: 20px;
+.Baris-3-Kolom-1 {
+    margin-top: 70px;
+    margin-left: -149px;
+    margin-right: auto;
+}
+
+.Baris-3-Kolom-2 {
+    margin-top: 70px;
+    margin-left: 196px;
+    margin-right: auto;
+}
+
+.Baris-4 {
+    margin-top: 70px;
     display: flex;
     gap: 200px;
 }
 
+.Baris-4-Kolom-1 {
+    margin-top: 70px;
+    margin-left: -149px;
+    margin-right: auto;
+}
+
+.Baris-4-Kolom-2 {
+    margin-top: 70px;
+    margin-left: 196px;
+    margin-right: auto;
+}
+
+button {
+    margin-top: 100px;
+    font-size: larger;
+    margin-left: 700px;
+    margin-right: auto;
+}
