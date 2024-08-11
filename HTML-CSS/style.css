@@ -62,3 +62,24 @@ ul img {
 .Nava:hover {
     color: black;
 }
+
+#Menunav {
+    display: block;
+}
+
+#MenuNav {
+    float: right !important;
+    width: 100%;
+    display: block;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F9D1AD;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: larger;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+
+
