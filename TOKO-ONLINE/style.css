@@ -149,3 +149,30 @@
         font-size: 20px;
     }
 }
+
+/* info */
+
+.info {
+    margin-top: 50px;
+}
+
+.info-content {
+    height: 200px;
+    width: 200px;
+    display: flex;
+}
+
+.icon img {
+    width: 150px;
+    display: block;
+    margin-right: 5px;
+}
+
+@media (min-width: 560px) {
+    .info {
+        width: 960px;
+        margin: auto;
+        margin-top: 50px;
+    }
+}
+
