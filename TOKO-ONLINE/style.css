@@ -65,3 +65,44 @@
     color: black;
 }
 }
+
+.main {
+    margin-top: 20px;
+}
+
+.main-left img {
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.main-right {
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media(min-width: 560px) {
+    .main {
+        width: 960px;
+        margin: auto;
+        display: flex;
+        margin-top: 45px;
+        justify-content: center;
+    }
+
+    .main-left img {
+        width: 500px;
+    }
+
+    .main-right {
+        margin: auto;
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    .main-right h2 {
+        margin-bottom: 20px;
+        font-size: 40px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
