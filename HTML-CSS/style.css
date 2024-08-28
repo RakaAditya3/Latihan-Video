@@ -1,6 +1,8 @@
-div {
-    width: 70%;
-    margin: auto;
+
+
+* {
+    padding: 0;
+    margin: 0;
 }
 
 #TopNav {
@@ -77,9 +79,101 @@ ul img {
     background-color: #F9D1AD;
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: larger;
+    font-size: 25px;
     margin-top: 10px;
     color: #FFFFFF;
 }
 
+.Navorder {
+    float: right !important;
+    margin-right: 150px;
+}
 
+.Navorder .NavOrder {
+    display: block;
+    padding: 10px 10px;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration:dashed;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor :pointer;
+    background-color: red;
+    border: -1px solid red;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+.NavOrder:hover {
+    color: black;
+}
+
+
+.image-slider {
+    position: absolute;
+    top: 250px;
+    left: 480px;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+}
+
+.image-slider .slide {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    animation: slideAnimation 5s infinite;
+}
+
+@keyframes slideAnimation {
+    0% { opacity: 1; }
+    33% { opacity: 0; }
+    66% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Mengatur gambar untuk tampil bergantian */
+.image-slider .slide:nth-child(2) {
+    animation-delay: 3s;
+}
+
+.image-slider .slide:nth-child(3) {
+    animation-delay: 10s;
+}
+
+h1 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 650px;
+}
+
+.row {
+    background-color: white;
+    max-width: 1000px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.col {
+    width: 150px;
+    height: 100px;
+}
+
+.satu {
+    background-color:beige;
+}
+
+.dua {
+    background-color: aqua;
+}
+
+.tiga {
+    background-color: bisque;
+}
+
+.empat {
+    background-color: blue;
+}
