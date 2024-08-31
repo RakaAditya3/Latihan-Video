@@ -36,6 +36,12 @@
                                 <li><a class="dropdown-item" href="#">Contact</a></li>
                             </ul>
                         </li>
+                        <li>
+                            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#StaticBackdrop" href="#">Login</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#StaticBackdrop2" href="#">Sign In</a>
+                        </li>
                     </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -74,11 +80,11 @@
 <!-- jumbotron -->
 <div class="jumbotron text-center bg-light">
     <div class="container">
-    <h1 class="display-2">Dimsum</h1>
-    <p class="lead">Olahan Makanan yang terbuat dari Ayam dan Udang dengan Dikukus</p>
-    <hr class="my-2">
-    <p">Rasakan Cita Rasa Makanan Lezat Yang Sehat</p>
-    <a class="btn btn-dark btn-lg mt-2 mb-4" href="#" role="button">Pesan Sekarang !</a>
+        <h1 class="display-2">Dimsum</h1>
+        <p class="lead">Olahan Makanan yang terbuat dari Ayam dan Udang dengan Dikukus</p>
+        <hr class="my-2">
+        <p">Rasakan Cita Rasa Makanan Lezat Yang Sehat</p>
+        <a class="btn btn-dark btn-lg mt-2 mb-4" href="#" role="button">Pesan Sekarang !</a>
     </div>
 </div>
 <!-- jumbotron -->
@@ -115,6 +121,7 @@
         </div>
     </div>
 </div>
+<!-- card -->
 
 <!-- modal -->
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -138,11 +145,70 @@
         </div>
     </div>
 </div>
+<!-- modal -->
 
+<!-- Form -->
+<div class="modal fade" id="StaticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div id="1" class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Login</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">Masukkan Email Anda !</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Remember Me !</label>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Login</button>
+            </div>
+        </div>
+    </div>
+</div>
 
-
-
-
+<div class="modal fade" id="StaticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div id="1" class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Sign In</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">Masukkan Email Anda !</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label"> Masukkan Ulang Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1"> Menyetujui Ketentuan & Syarat</label>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Sign In</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
